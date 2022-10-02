@@ -10,9 +10,9 @@ public class B_MaintainMultipleSequences {
         List<ArrayList<Integer>> a = new ArrayList<ArrayList<Integer>>();
     
         for (int i = 0; i < N; i++) {
-            long L = scanner.nextInt();
             ArrayList<Integer> l = new ArrayList<>();
             a.add(i,l);
+            long L = scanner.nextInt();
             for (int j = 0; j < L; j++) {
                 a.get(i).add(j,scanner.nextInt());
             }
